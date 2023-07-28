@@ -1,0 +1,15 @@
+GET http://localhost:3000/api/users
+
+###
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@email.com",
+  "password": "password123"
+}
+
+###
+GET http://localhost:3000/api/users/64c0a96983a30c195e8a4b2a
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGMwYTk2OTgzYTMwYzE5NWU4YTRiMmEiLCJpYXQiOjE2OTAzNjAwMDV9.GOb2uVPH6Xoghu4XtKTAh6ycAqmmZIngxjelye8ZzB0
